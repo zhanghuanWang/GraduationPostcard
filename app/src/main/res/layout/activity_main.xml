@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fcf="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blurry"
+    tools:context=".activity.MainActivity">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.ywg.graduationpostcard.view.FancyCoverFlow.FancyCoverFlow
+            android:id="@+id/fancyCoverFlow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            fcf:maxRotation="100"
+            fcf:scaleDownGravity="0.1"
+            fcf:unselectedAlpha="0.3"
+            fcf:unselectedSaturation="0.0"
+            fcf:unselectedScale="30" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fancyCoverFlow"
+            android:text="请选择你喜欢的样式进行制作"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

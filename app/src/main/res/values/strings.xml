@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">毕业明信片</string>
+    <string name="action_share">分享</string>
+    <string name="action_about">关于</string>
+    <string name="refresh">刷新</string>
+    <string name="copy_link">复制链接</string>
+    <string name="share_link">分享链接</string>
+    <string name="open_link_in_browser">用浏览器打开</string>
+    <string name="copy_success">复制成功</string>
+    <string name="github_my">https://github.com/ywg228</string>
+    <string name="github">Github</string>
+    <string name="edit">编辑</string>
+    <string name="selectimagefromgallery">从本地相册选择</string>
+    <string name="selectimagefromcamera">拍照</string>
+</resources>
